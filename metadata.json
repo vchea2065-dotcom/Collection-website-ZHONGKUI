@@ -1,0 +1,6 @@
+{
+  "name": "ZHONGKUI — Premium Collectibles",
+  "description": "ZHONGKUI — Premium Collectibles Platform. Collect, preserve, and display rare Pokémon cards, PSA graded slabs, INNO64 & LBWK diecast models, Gundam, and exclusive Japanese collectibles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
