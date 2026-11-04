@@ -34,35 +34,19 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onOpenS
     <>
       {/* Top Notification Announcement Bar */}
       <div className="bg-[#151515] text-[#F7F7F5] text-[11px] font-mono tracking-wider py-1.5 px-4 text-center border-b border-white/10 flex items-center justify-between max-w-full">
-        <div className="hidden md:block w-32 text-left text-[#B99A5B] font-semibold text-[10px]">
+        <div className="hidden md:block w-36 text-left text-[#B99A5B] font-semibold text-[10px]">
           COLLECT. PRESERVE. DISPLAY.
         </div>
-        <div className="flex-1 text-center truncate">
+        <div className="flex-1 text-center truncate px-2">
           <span>COMPLIMENTARY INSURED COURIER ON VAULT ORDERS OVER $300 USD · ABA BANK & KHQR ACCEPTED</span>
         </div>
-        <div className="hidden md:flex items-center gap-3 w-32 justify-end text-[10px] text-[#858585]">
-          {isAdmin ? (
+        <div className="hidden md:block w-36 text-right text-[10px] text-[#858585]">
+          {isAdmin && (
             <button
               onClick={() => onNavigate('admin')}
-              className="text-[#B99A5B] font-bold hover:underline flex items-center gap-1 cursor-pointer"
+              className="text-[#B99A5B] hover:text-white font-mono font-bold transition-colors cursor-pointer"
             >
-              <Shield className="w-3 h-3" />
-              <span>ADMIN PORTAL</span>
-            </button>
-          ) : !isConfigured ? (
-            <button
-              onClick={() => onNavigate('admin-setup')}
-              className="text-amber-400 font-bold hover:underline flex items-center gap-1 cursor-pointer"
-            >
-              <ShieldAlert className="w-3 h-3" />
-              <span>SETUP STORE</span>
-            </button>
-          ) : (
-            <button
-              onClick={() => onNavigate('admin-login')}
-              className="hover:text-white transition-colors cursor-pointer"
-            >
-              ADMIN
+              ADMIN PORTAL
             </button>
           )}
         </div>

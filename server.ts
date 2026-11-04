@@ -354,7 +354,20 @@ function initializeDatabase() {
   if (products.length === 0) {
     writeJson('products.json', INITIAL_PRODUCTS);
   }
-  readJson('users.json', []);
+  const users = readJson<User[]>('users.json', []);
+  if (users.length === 0) {
+    const salt = bcrypt.genSaltSync(10);
+    const passwordHash = bcrypt.hashSync('ZhongkuiAdmin2026!', salt);
+    users.push({
+      id: 'admin-vchea',
+      name: 'ZHONGKUI Curator (Vchea)',
+      email: 'vchea2065@gmail.com',
+      passwordHash,
+      role: 'admin',
+      createdAt: new Date().toISOString()
+    });
+    writeJson('users.json', users);
+  }
   readJson('orders.json', []);
 }
 

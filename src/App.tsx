@@ -31,7 +31,13 @@ function MainApp() {
   const { user, isAdmin, isConfigured } = useAuth();
 
   // Navigation State
-  const [currentPage, setCurrentPage] = useState<string>('home');
+  const [currentPage, setCurrentPage] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      if (hash === 'admin' || window.location.pathname.includes('/admin')) return 'admin';
+    }
+    return 'home';
+  });
   const [adminTab, setAdminTab] = useState<string>('dashboard');
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
 
@@ -59,10 +65,22 @@ function MainApp() {
 
   useEffect(() => {
     fetchProducts();
+    const handleHash = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash === 'admin') setCurrentPage('admin');
+      else if (hash === 'shop') setCurrentPage('shop');
+    };
+    window.addEventListener('hashchange', handleHash);
+    return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
   const handleNavigate = (page: string) => {
     setCurrentPage(page);
+    if (page === 'admin') {
+      window.location.hash = 'admin';
+    } else if (page === 'home') {
+      window.location.hash = '';
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

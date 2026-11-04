@@ -94,6 +94,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({
           </h2>
         </div>
 
+
         {/* Tab switch for regular customer */}
         {!isAdminLogin && (
           <div className="flex border-b border-[#151515]/10 text-xs font-semibold uppercase tracking-wider">

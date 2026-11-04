@@ -1,0 +1,10 @@
+[
+  {
+    "id": "admin-vchea",
+    "name": "ZHONGKUI Curator (Vchea)",
+    "email": "vchea2065@gmail.com",
+    "passwordHash": "$2b$10$Zb8zJozXCMjR3F0Dcyd9T.uXi91CxtndL9uoRfkspvhessKlUfDEG",
+    "role": "admin",
+    "createdAt": "2026-11-03T00:00:00.000Z"
+  }
+]

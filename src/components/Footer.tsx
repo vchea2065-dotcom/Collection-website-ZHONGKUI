@@ -157,9 +157,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 </button>
               </li>
               <li>
-                <button onClick={() => onNavigate('admin-login')} className="hover:text-[#B99A5B] transition-colors flex items-center gap-1">
-                  <span>Store Administration</span>
-                  <ArrowUpRight className="w-3 h-3" />
+                <button onClick={() => onNavigate('about')} className="hover:text-white transition-colors">
+                  Authenticity Verification & Vault Care
                 </button>
               </li>
             </ul>
