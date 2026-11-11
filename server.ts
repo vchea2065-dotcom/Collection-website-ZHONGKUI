@@ -962,37 +962,53 @@ export async function createServer() {
       { id: 'cat-1', name: 'Pokémon Cards', slug: 'pokemon-cards', count: 12 },
       { id: 'cat-2', name: 'PSA Graded Cards', slug: 'psa-graded', count: 8 },
       { id: 'cat-3', name: 'Premium Diecast Cars', slug: 'diecast', count: 14 },
-      { id: 'cat-4', name: 'INNO64', slug: 'inno64', count: 6 },
-      { id: 'cat-5', name: 'LBWK', slug: 'lbwk', count: 5 },
-      { id: 'cat-6', name: 'Gundam', slug: 'gundam', count: 7 },
-      { id: 'cat-7', name: 'Anime Figures', slug: 'anime-figures', count: 9 }
+      { id: 'cat-4', name: 'INNO64', slug: 'inno64', count: 9 },
+      { id: 'cat-5', name: 'LBWK', slug: 'lbwk', count: 7 },
+      { id: 'cat-6', name: 'Hot Wheels', slug: 'hot-wheels', count: 11 },
+      { id: 'cat-7', name: 'Gundam', slug: 'gundam', count: 6 },
+      { id: 'cat-8', name: 'Anime Figures', slug: 'anime-figures', count: 9 },
+      { id: 'cat-9', name: 'Rare Collection', slug: 'rare-collection', count: 8 },
+      { id: 'cat-10', name: 'New Arrivals', slug: 'new-arrivals', count: 15 }
     ]);
   });
 
-  // --- Vite Dev Middleware or Production Static Fallback ---
+  // ----------------------------------------------------
+  // Vite development / production configuration
+  // ----------------------------------------------------
   const isProduction = process.env.NODE_ENV === 'production';
+
   if (!isProduction) {
     const { createServer: createViteServer } = await import('vite');
+
     const vite = await createViteServer({
       server: { middlewareMode: true },
-      appType: 'spa',
+      appType: 'spa'
     });
+
     app.use(vite.middlewares);
   } else {
     const distPath = path.join(__dirname, 'dist');
-    app.use(express.static(distPath));
-    app.get('*', (_req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
-    });
+
+    if (fs.existsSync(distPath)) {
+      app.use(express.static(distPath));
+
+      app.get('*', (_req, res) => {
+        res.sendFile(path.join(distPath, 'index.html'));
+      });
+    } else {
+      console.error('Production build folder "dist" was not found.');
+    }
   }
 
-  // --- Start Server with Explicit Startup Logging ---
+  // ----------------------------------------------------
+  // Start server
+  // ----------------------------------------------------
   app.listen(Number(PORT), '0.0.0.0', () => {
-    console.log(`🚀 Server is running on http://localhost:${PORT}`);
+    console.log(`🚀 ZHONGKUI server running on port ${PORT}`);
   });
 }
 
-// Invoke the server starter
+// Start application
 createServer().catch(err => {
   console.error('Failed to start server:', err);
 });
