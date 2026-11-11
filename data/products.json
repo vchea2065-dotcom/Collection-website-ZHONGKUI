@@ -1,0 +1,243 @@
+[
+  {
+    "id": "prod-001",
+    "name": "2001 Japanese Pokémon 1st Edition Crystal Charizard Holo PSA 10 GEM MT",
+    "slug": "2001-pokemon-1st-ed-crystal-charizard-psa-10",
+    "category": "PSA Graded Cards",
+    "brand": "Pokémon TCG",
+    "price": 18500,
+    "discountPrice": 17200,
+    "stock": 1,
+    "condition": "PSA 10 Gem Mint",
+    "featured": true,
+    "newArrival": false,
+    "rareCollection": true,
+    "status": "published",
+    "mainImage": "/assets/aistudio/screen_55416fe7.png",
+    "images": [
+      "/assets/aistudio/screen_55416fe7.png",
+      "/assets/aistudio/screen_5d4c2460.png"
+    ],
+    "description": "The holy grail of the e-Card era. 2001 Japanese Mysterious Mountains (E-Series 5) 1st Edition Crystal Charizard graded PSA 10 Gem Mint. Features the pristine crystal elemental design with immaculate holographic foil reflection, flawless centering, and pristine sub-grades. Museum vault archival preservation.",
+    "specifications": {
+      "Card Name": "Crystal Charizard (リザードン)",
+      "Set": "Japanese Mysterious Mountains / e-Series 5",
+      "Card Number": "#089/088 Secret Rare",
+      "Rarity": "1st Edition Secret Holo",
+      "Grading Company": "PSA (Professional Sports Authenticator)",
+      "Grade": "GEM MT 10",
+      "Certification Number": "43875191",
+      "Language": "Japanese"
+    },
+    "createdAt": "2026-11-08T09:33:02.003Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-002",
+    "name": "INNO64 1:64 Nissan Skyline GT-R R34 Nismo Clubman Spec (Bayside Blue)",
+    "slug": "inno64-skyline-gtr-r34-bayside-blue",
+    "category": "INNO64",
+    "brand": "INNO64",
+    "price": 85,
+    "discountPrice": 75,
+    "stock": 8,
+    "condition": "Brand New / Sealed Acrylic Base",
+    "featured": true,
+    "newArrival": true,
+    "rareCollection": false,
+    "status": "published",
+    "mainImage": "/src/assets/images/diecast_inno64_gtr_1793761649676.jpg",
+    "images": [
+      "/src/assets/images/diecast_inno64_gtr_1793761649676.jpg"
+    ],
+    "description": "Precision engineered 1:64 scale diecast model of the iconic Nissan Skyline GT-R R34 in factory OEM Bayside Blue with Nismo Clubman Race Spec aerokit, bronze forged 5-spoke wheels, detailed Recaro interior cockpit, and individual acrylic collector pedestal display case.",
+    "specifications": {
+      "Manufacturer": "INNO64 / Inno Models",
+      "Car Model": "Nissan Skyline GT-R (BNR34) Nismo CRS",
+      "Scale": "1:64",
+      "Material": "Diecast metal chassis & body, real rubber tires",
+      "Packaging": "Collector acrylic display case with mirrored base",
+      "Edition": "Limited Production Run"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-003",
+    "name": "LBWK Liberty Walk GT-R R35 Silhouette Works Matte Titanium Edition",
+    "slug": "lbwk-liberty-walk-gtr-r35-matte-titanium",
+    "category": "LBWK",
+    "brand": "Liberty Walk / LB-Silhouette",
+    "price": 145,
+    "discountPrice": null,
+    "stock": 3,
+    "condition": "Brand New In Box",
+    "featured": true,
+    "newArrival": true,
+    "rareCollection": true,
+    "status": "published",
+    "mainImage": "/src/assets/images/diecast_lbwk_supercar_1793761647485.jpg",
+    "images": [
+      "/src/assets/images/diecast_lbwk_supercar_1793761647485.jpg",
+      "/assets/aistudio/screen_5d4c2460.png"
+    ],
+    "description": "Authorized LB-WORKS Nissan GT-R R35 widebody miniature masterpiece. Precision cast with hand-riveted fender flaring, aggressive rear diffuser, GT wing, bronze Forgiato wheels, and custom brushed titanium-finish collector plinth.",
+    "specifications": {
+      "Manufacturer": "Liberty Walk Official Merchandise",
+      "Car Model": "LB-Silhouette WORKS GT 35GT-RR",
+      "Scale": "1:64",
+      "Material": "High Precision Resin / Diecast hybrid",
+      "Finish": "Matte Dark Gunmetal & Titanium with LBWK Livery",
+      "License": "Officially Licensed by Wataru Kato / Liberty Walk"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-004",
+    "name": "Bandai Perfect Grade Unleashed 1/60 RX-78-2 Gundam (Museum Weathered Edition)",
+    "slug": "bandai-pg-unleashed-rx-78-2-gundam",
+    "category": "Gundam",
+    "brand": "Bandai Spirits",
+    "price": 420,
+    "discountPrice": 389,
+    "stock": 2,
+    "condition": "Collector Display Assembly / Pristine",
+    "featured": true,
+    "newArrival": false,
+    "rareCollection": true,
+    "status": "published",
+    "mainImage": "/src/assets/images/gundam_pg_unleashed_1793761650084.jpg",
+    "images": [
+      "/src/assets/images/gundam_pg_unleashed_1793761650084.jpg"
+    ],
+    "description": "The peak of Gunpla engineering. 1/60 scale Perfect Grade Unleashed featuring multi-layered inner frames, metallic electroplated etched parts, LED lighting matrix for chest vents and eyes, precision panel line shading, and museum-grade weathering finish on a stone plinth.",
+    "specifications": {
+      "Manufacturer": "Bandai Spirits / Gunpla",
+      "Model": "RX-78-2 Gundam (Amuro Ray Custom)",
+      "Grade": "Perfect Grade Unleashed (PGU)",
+      "Scale": "1/60",
+      "Special Features": "Full Metal Etching, 3-Phase Armor Hatch Open, RGB LED Core",
+      "Height": "Approx 320mm"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-005",
+    "name": "ZHONGKUI \"The Sandeai Sovereign\" Limited Edition Resin Statue (1/6 Scale)",
+    "slug": "zhongkui-sandeai-sovereign-resin-statue",
+    "category": "Anime Figures",
+    "brand": "ZHONGKUI Atelier",
+    "price": 680,
+    "discountPrice": null,
+    "stock": 4,
+    "condition": "Brand New / Numbered Art Certificate",
+    "featured": true,
+    "newArrival": true,
+    "rareCollection": true,
+    "status": "published",
+    "mainImage": "/src/assets/images/anime_resin_statue_1793761649294.jpg",
+    "images": [
+      "/src/assets/images/anime_resin_statue_1793761649294.jpg"
+    ],
+    "description": "Exclusive artisanal studio sculpture depicting the guardian spirit in contemplative readiness. Cast in premium polystone and PU resin with gold hand-leaf gilding, katana sheath engraving, and genuine dark timber bench presentation base. Limited to 250 pieces worldwide.",
+    "specifications": {
+      "Studio": "ZHONGKUI Atelier & Guild",
+      "Character": "The Sovereign Master",
+      "Scale": "1/6 Studio Scale",
+      "Materials": "High Density Polystone, Resin, Solid Oak Plinth",
+      "Worldwide Edition": "250 Numbered Pieces with Gold Embossed COA",
+      "Dimensions": "38cm H x 32cm W x 28cm D"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-006",
+    "name": "1999 Pokémon Base Set 1st Edition Shadowless Charizard PSA 9 MINT",
+    "slug": "1999-pokemon-base-set-shadowless-charizard-psa-9",
+    "category": "Pokémon Cards",
+    "brand": "Pokémon TCG",
+    "price": 12500,
+    "discountPrice": 11900,
+    "stock": 1,
+    "condition": "PSA 9 Mint",
+    "featured": false,
+    "newArrival": false,
+    "rareCollection": true,
+    "status": "published",
+    "mainImage": "/assets/aistudio/screen_55416fe7.png",
+    "images": [
+      "/assets/aistudio/screen_55416fe7.png"
+    ],
+    "description": "The foundation stone of vintage card collecting. 1999 English 1st Edition Shadowless Charizard #4/102 in PSA 9 Mint condition. Vibrant coloration, crisp edges, and certified original tamper-proof PSA sonic weld casing.",
+    "specifications": {
+      "Card Name": "Charizard Holo #4/102",
+      "Set": "Base Set 1st Edition Shadowless",
+      "Grading Company": "PSA",
+      "Grade": "MINT 9",
+      "Certification Number": "28941032",
+      "Language": "English"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-007",
+    "name": "Hot Wheels RLC Exclusive 1971 Datsun 510 Real Riders Limited Edition",
+    "slug": "hot-wheels-rlc-1971-datsun-510",
+    "category": "Hot Wheels",
+    "brand": "Hot Wheels Red Line Club",
+    "price": 135,
+    "discountPrice": 120,
+    "stock": 6,
+    "condition": "Sealed In Original Acrylic Clamshell",
+    "featured": false,
+    "newArrival": true,
+    "rareCollection": false,
+    "status": "published",
+    "mainImage": "/src/assets/images/diecast_lbwk_supercar_1793761647485.jpg",
+    "images": [
+      "/src/assets/images/diecast_lbwk_supercar_1793761647485.jpg"
+    ],
+    "description": "Spectraflame olive green finish with period-accurate vintage racing livery, opening hood detailing the L16 engine, polished chrome Real Riders 4-spoke wheels, and individual serialized collector hologram.",
+    "specifications": {
+      "Brand": "Hot Wheels Collectors / Red Line Club (RLC)",
+      "Year": "1971",
+      "Car Model": "Datsun 510 Bluebird",
+      "Tires": "Real Riders rubber with chrome racing rims",
+      "Scale": "1:64"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  },
+  {
+    "id": "prod-008",
+    "name": "Premium Diecast Museum Acrylic Vitrine Case with Dual LED Downlight",
+    "slug": "museum-acrylic-vitrine-case-led",
+    "category": "Premium Diecast Cars",
+    "brand": "ZHONGKUI Display",
+    "price": 95,
+    "discountPrice": 85,
+    "stock": 15,
+    "condition": "Brand New",
+    "featured": false,
+    "newArrival": true,
+    "rareCollection": false,
+    "status": "published",
+    "mainImage": "/assets/aistudio/screen_5d4c2460.png",
+    "images": [
+      "/assets/aistudio/screen_5d4c2460.png"
+    ],
+    "description": "Museum-grade 99% UV-filtering cast acrylic display vitrine engineered specifically for 1:64 and 1:43 diecast cars or PSA card slabs. Features solid slate stone base, micro dual warm 3000K LED spot downlights, and magnetic dust-seal cover.",
+    "specifications": {
+      "Dimensions": "24cm x 16cm x 14cm",
+      "UV Protection": "99.2% Museum Grade",
+      "Illumination": "Rechargeable USB-C 3000K Soft Studio Warm LED",
+      "Base": "Matte Honed Black Slate"
+    },
+    "createdAt": "2026-11-08T09:33:02.004Z",
+    "updatedAt": "2026-11-08T09:33:02.004Z"
+  }
+]
