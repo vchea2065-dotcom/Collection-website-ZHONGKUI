@@ -30,31 +30,31 @@ export const HomePage: React.FC<HomePageProps> = ({ products, onNavigate, onQuic
     {
       title: 'INNO64 Collection',
       id: 'category-inno64',
-      image: '/src/assets/images/diecast_inno64_gtr_1793761649676.jpg',
+      image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSShkURJwkfqsMLfVLJevQmFRS3VzAsnbcey9mh9DvlNayspjJV',
       count: '1:64 Precision Scale'
     },
     {
       title: 'LBWK Liberty Walk',
       id: 'category-lbwk',
-      image: '/src/assets/images/diecast_lbwk_supercar_1793761647485.jpg',
+      image: 'https://vogueindustries.com/cdn/shop/files/NISSANGT-RR35type1.51.jpg?v=1731634913',
       count: 'Official Authorized'
     },
     {
       title: 'Bandai Gundam',
       id: 'category-gundam',
-      image: '/src/assets/images/gundam_pg_unleashed_1793761650084.jpg',
+      image: 'https://s3.amazonaws.com/gunplagallery/catalog/44920_original_PGU_RX-78-2_Gundam.jpg',
       count: 'PG Unleashed & MGEX'
     },
     {
       title: 'Anime Statues',
       id: 'category-anime-figures',
-      image: '/src/assets/images/anime_resin_statue_1793761649294.jpg',
+      image: 'https://kyukyokushop.com/uploads/products/1794380795-photo_55_2026-11-09_13-28-25.jpg',
       count: 'Limited Resin Sculptures'
     },
     {
       title: 'Hot Wheels RLC',
       id: 'category-hot-wheels',
-      image: '/assets/aistudio/screen_5d4c2460.png',
+      image: '/assets/aistudio/hot.jpg',
       count: 'Real Riders Limited'
     },
     {
